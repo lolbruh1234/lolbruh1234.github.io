@@ -1,0 +1,28 @@
+title: "Andy Z — maker's bench"
+description: "High school student building circuits, drones, and robots."
+baseurl: ""
+url: "https://HatTrick0623.github.io"
+github_username: HatTrick0623
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  updates:
+    output: false
+    sort_by: date
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

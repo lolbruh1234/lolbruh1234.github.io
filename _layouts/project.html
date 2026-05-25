@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="proj-page-header">
+  <a href="{{ '/' | relative_url }}#projects" class="back">&larr; all projects</a>
+  <h1>{{ page.title }}</h1>
+  <p class="sub">{{ page.description }}</p>
+  <div class="proj-meta">
+    {% if page.status == "active" %}<span class="badge on">Active</span>{% endif %}
+    {% if page.status == "paused" %}<span class="badge hold">Paused</span>{% endif %}
+    {% if page.status == "planning" %}<span class="badge plan">Planning</span>{% endif %}
+    <div class="tags">
+      {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="proj-body">
+  {{ content }}
+</div>

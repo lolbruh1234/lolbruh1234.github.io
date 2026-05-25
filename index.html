@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+<!-- HERO -->
+<div class="hero">
+  <p class="hero-eyebrow">high school maker</p>
+  <h1>Building things that move, <em>fly</em>, and think.</h1>
+  <p>Circuits, drones, robots — and whatever else ends up on my bench. This is a live log of what I'm actually working on.</p>
+</div>
+
+<!-- NOW -->
+<section class="section" id="now">
+  <div class="inner">
+    <p class="sec-title">// right now</p>
+    <div class="now-grid">
+      <div class="now-item">
+        <div class="dot on"></div>
+        <div>
+          <div class="now-name">FPV Drone v2</div>
+          <div class="now-sub">Tuning PID — yaw oscillation at high throttle</div>
+        </div>
+      </div>
+      <div class="now-item">
+        <div class="dot on"></div>
+        <div>
+          <div class="now-name">Mini Wheeled Robot</div>
+          <div class="now-sub">Ultrasonic array for obstacle avoidance</div>
+        </div>
+      </div>
+      <div class="now-item">
+        <div class="dot hold"></div>
+        <div>
+          <div class="now-name">Custom ESC</div>
+          <div class="now-sub">Waiting on gate driver ICs</div>
+        </div>
+      </div>
+      <div class="now-item">
+        <div class="dot plan"></div>
+        <div>
+          <div class="now-name">Balancing Bot</div>
+          <div class="now-sub">PCB layout, MPU-6050 + TB6612</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="inner">
+    <p class="sec-title">// projects</p>
+    <div class="proj-grid">
+      {% assign sorted_projects = site.projects | sort: "order" %}
+      {% for proj in sorted_projects %}
+      <a href="{{ proj.url | relative_url }}" class="proj-card">
+        <div class="proj-cat">{{ proj.category }}</div>
+        <h3>{{ proj.title }}</h3>
+        <p>{{ proj.description }}</p>
+        <div class="proj-foot">
+          {% if proj.status == "active" %}<span class="badge on">Active</span>{% endif %}
+          {% if proj.status == "paused" %}<span class="badge hold">Paused</span>{% endif %}
+          {% if proj.status == "planning" %}<span class="badge plan">Planning</span>{% endif %}
+          <div class="tags">
+            {% for tag in proj.tags %}<span>{{ tag }}</span>{% endfor %}
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- UPDATES FEED -->
+<section class="section" id="updates">
+  <div class="inner">
+    <p class="sec-title">// updates</p>
+    <div class="feed">
+      {% assign sorted_updates = site.updates | sort: "date" | reverse %}
+      {% for update in sorted_updates %}
+      <div class="feed-item">
+        <div class="feed-date">{{ update.date | date: "%b %d, %Y" }}</div>
+        <div>
+          <div class="feed-proj">{{ update.project }}</div>
+          <div class="feed-title">{{ update.title }}</div>
+          <div class="feed-body">{{ update.content | strip_html | truncate: 180 }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="inner">
+    <p class="sec-title">// about</p>
+    <div class="about-text">
+      <p>High school student obsessed with making things move. Started with Arduino kits, now designing my own PCBs and writing firmware from scratch.</p>
+      <p>I care more about understanding <em>why</em> something works than getting it to work by accident. That means a lot of burned components, exploded LiPos, and reading datasheets at midnight.</p>
+      <div class="tag-cloud">
+        <span>Circuit Design</span>
+        <span>FPV Drones</span>
+        <span>Embedded Systems</span>
+        <span>Robotics</span>
+        <span>PID Control</span>
+        <span>3D Printing</span>
+        <span>KiCad</span>
+        <span>Soldering</span>
+        <span>BLDC Motors</span>
+      </div>
+      <div class="links">
+        <a href="https://github.com/HatTrick0623" target="_blank">GitHub &rarr;</a>
+        <a href="mailto:huaiyezhang88@gmail.com">Email &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>

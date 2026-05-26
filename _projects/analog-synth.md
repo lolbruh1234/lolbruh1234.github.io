@@ -29,7 +29,13 @@ Ongoing — breadboard prototype is running. VCO schematic is laid out in KiCad;
 <div class="log">
 
 <div class="log-entry">
-<div class="log-date">May 25, 2026</div>
+<div class="log-date">May 24, 2026</div>
+<h4>VCO schematic drawn in KiCad</h4>
+<p>Laid out the discrete Schmitt trigger inverter and voltage-controlled oscillator — 2N2222 stages, timing cap and pot, no ICs. Ready to iterate against the breadboard build.</p>
+</div>
+
+<div class="log-entry">
+<div class="log-date">May 23, 2026</div>
 <h4>Breadboard VCO prototype live</h4>
 <p>Discrete Schmitt trigger inverter oscillating on the breadboard. No ICs — just 2N2222s, passives, and a pot for frequency control. Next: tighten up the waveform and start the speaker CAD.</p>
 </div>

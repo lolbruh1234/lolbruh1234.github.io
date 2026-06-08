@@ -15,18 +15,48 @@ Next step is CADding and building a speaker enclosure to match it.
 
 ## Current state
 
-Ongoing — breadboard prototype is running. VCO schematic is laid out in KiCad; tuning the Schmitt trigger stage and working toward a stable, controllable pitch. Speaker design not started yet.
+Finished prototype works — VCO, audio amplifier, LiPo power, and speaker module all running together. Swapped the pot dial for an analog slider to make note selection easier. Tested by playing Happy Birthday.
 
 ## Photos
 
 <div class="img-grid">
   <img src="/assets/img/analog-synth-breadboard.png" alt="Breadboard prototype with discrete VCO circuit">
   <img src="/assets/img/analog-synth-vco-schematic.png" alt="KiCad schematic — Schmitt trigger inverter and VCO">
+  <img src="/assets/img/analog-synth-prototype-comparison.png" alt="Breadboard prototype next to finished synth with slider and speaker">
+  <img src="/assets/img/analog-synth-protoboard-desk.png" alt="Soldered protoboard with LiPo, slider, and speaker module">
+  <img src="/assets/img/analog-synth-final-top.png" alt="Top view of finished synth with slider, LiPo, and speaker">
+</div>
+
+## Videos
+
+<div class="video-wrap">
+  <video controls playsinline preload="metadata">
+    <source src="/assets/video/analog-synth-happy-birthday.mov" type="video/quicktime">
+    <source src="/assets/video/analog-synth-happy-birthday.mov" type="video/mp4">
+  </video>
 </div>
 
 ## Build log
 
 <div class="log">
+
+<div class="log-entry">
+<div class="log-date">June 7, 2026</div>
+<h4>Final test — Happy Birthday on the finished synth</h4>
+<p>Added an analog slider for easier note selection in place of the potentiometer dial. Final test with LiPo, synth, and speaker module — works as intended. Played Happy Birthday to confirm.</p>
+</div>
+
+<div class="log-entry">
+<div class="log-date">June 6, 2026</div>
+<h4>Protoboard soldering mostly done</h4>
+<p>Finished most of the protoboard soldering for the finished prototype of the synth. Discrete VCO and amp stages coming together on perfboard.</p>
+</div>
+
+<div class="log-entry">
+<div class="log-date">May 30, 2026</div>
+<h4>Finished prototype synth — VCO and audio amplifier</h4>
+<p>Completed a working prototype synth with discrete VCO and audio amplifier on the breadboard. Full signal path from oscillator to output confirmed.</p>
+</div>
 
 <div class="log-entry">
 <div class="log-date">May 24, 2026</div>

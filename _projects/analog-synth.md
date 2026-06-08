@@ -31,8 +31,7 @@ Finished prototype works — VCO, audio amplifier, LiPo power, and speaker modul
 
 <div class="video-wrap">
   <video controls playsinline preload="metadata">
-    <source src="/assets/video/analog-synth-happy-birthday.mov" type="video/quicktime">
-    <source src="/assets/video/analog-synth-happy-birthday.mov" type="video/mp4">
+    <source src="/assets/video/analog-synth-happy-birthday.mp4" type="video/mp4">
   </video>
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "Procurement report reviewed against TSA rules"
-project: "FPV Drone v2"
+project: "FPV Drone v3"
 date: 2026-07-26
 ---
 

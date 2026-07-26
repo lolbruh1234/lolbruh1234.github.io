@@ -1,6 +1,6 @@
 ---
 title: "Bilingual white paper: AI-assisted Betaflight configuration"
-project: "FPV Drone v2"
+project: "FPV Drone v3"
 date: 2026-07-26
 ---
 

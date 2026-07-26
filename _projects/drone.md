@@ -20,18 +20,6 @@ Fighting yaw oscillation at high throttle. P term on yaw is causing a noticeable
 <div class="log">
 
 <div class="log-entry">
-<div class="log-date">July 26, 2026</div>
-<h4>Wrote a white paper on AI-assisted Betaflight configuration</h4>
-<p>Bilingual concept paper on using Claude Code as a CLI-based alternative to the Betaflight Configurator GUI — mechanism, capability tiers, safety boundaries, and a proposed workflow. Concept-stage, not yet tested against real hardware.</p>
-</div>
-
-<div class="log-entry">
-<div class="log-date">July 26, 2026</div>
-<h4>Procurement report reviewed against TSA rules</h4>
-<p>Went through the procurement report against the WA TSA "Safari Rescue" ruleset. Frame, motors, props, battery, and charger from existing inventory are all keepers. Mapped out what's still needed — dual FPV cameras, electromagnet + servo gripper, mandatory 3D-printed prop guards — and checked every vendor link; the recommended Walksnail HD camera kit turned out to be out of stock. Receipts confirm the frame, motors, batteries, charger, props, and an ELRS receiver + antenna are already in the mail.</p>
-</div>
-
-<div class="log-entry">
 <div class="log-date">May 25, 2026</div>
 <h4>Blackbox analysis — yaw P overshoot</h4>
 <p>Pulled Blackbox logs and graphed the yaw gyro vs. setpoint. Clear overshoot pattern consistent with P being too high. Dropping yaw P from 45 → 35 and re-testing tomorrow.</p>

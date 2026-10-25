@@ -41,15 +41,12 @@ Printed a Benchy as a calibration test and the extrusion wasn't clean, so pulled
 
 ## Photos
 
-<!-- Drop your photos into /assets/img/ and reference them like this: -->
-<!-- <div class="img-grid">
-  <img src="/assets/img/3d-printer-benchy.jpg" alt="Benchy test print with extrusion defect">
-  <img src="/assets/img/3d-printer-gearbox.jpg" alt="Extruder gearbox disassembled">
-  <img src="/assets/img/3d-printer-teardown.jpg" alt="Full toolhead teardown laid out">
-  <img src="/assets/img/3d-printer-motor-connector.jpg" alt="Extruder motor with wiring connector">
-  <img src="/assets/img/3d-printer-screws.jpg" alt="Hardware and hex keys">
-  <img src="/assets/img/3d-printer-reassembled.jpg" alt="Toolhead reassembled on gantry">
-</div> -->
+<div class="img-grid">
+  <img src="/assets/img/3d-printer-repairs/3dprinterfix1.jpg" alt="Extruder assembly teardown">
+  <img src="/assets/img/3d-printer-repairs/3dprinterfix2.jpg" alt="Extruder gearbox and motor disassembled">
+  <img src="/assets/img/3d-printer-repairs/3dprinterfix3.jpg" alt="Extruder parts laid out for inspection">
+  <img src="/assets/img/3d-printer-repairs/3dprinterfix4.jpg" alt="Toolhead reassembled on gantry">
+</div>
 
 ## Videos
 
